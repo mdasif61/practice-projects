@@ -1,0 +1,268 @@
+header{
+    width:100%;
+    height: 800px;
+    background-image: linear-gradient(to top, black,gray), url('./images01/donation0.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-head{
+    color:white;
+    text-align: center;
+    font-family: 'Bakbak One', 'cursive';
+    width:50%;
+    margin:0 auto;
+    line-height: 74px;
+    font-size: 70px;
+}
+
+.head-title{
+    color:white;
+    font-size: 30px;
+    font-family: 'Comfortaa', 'cursive';
+    width:55%;
+    margin:0 auto;
+    margin-top:40px;
+    line-height: 50px;
+}
+.btn{
+    margin:60px 60px;
+    border:none;
+    outline: none;
+    padding: 10px 15px;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 119),rgb(209, 43, 43));
+    color:white;
+    border-radius: 5px;
+    width:200px;
+    height: 70px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.btn:hover{
+    box-shadow: 2px 2px 10px rgb(109, 7, 7),
+    inset 3px 3px 10px rgb(168, 33, 33);
+    background: transparent;
+    border:1px solid rgb(255, 0, 119);
+}
+.donate-today{
+    text-align: center;
+    margin-top:120px;
+    font-size: 28px;
+}
+.dt-info{
+    color:rgb(90, 87, 87);
+    width:40%;
+    margin:0 auto;
+    font-family: 'Comfortaa', 'cursive';
+    font-size: 16px;
+    line-height: 20px;
+    margin-top:-10px;
+    margin-bottom: 20px;
+}
+.taka-box{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.taka-btn{
+    border:none;
+    outline: none;
+    background: linear-gradient(to bottom,rgb(252, 223, 223),rgb(255, 255, 255));
+    height: 150px;
+    width:150px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(90, 89, 89);
+}
+.taka-btn:hover{
+    color:rgb(255, 95, 95);
+    border:2px solid rgb(255, 102, 102);
+}
+.btn1{
+    margin:30px 0px;
+    border:none;
+    outline: none;
+    padding: 10px 15px;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 119),rgb(209, 43, 43));
+    color:white;
+    border-radius: 5px;
+    width:200px;
+    height: 60px;
+    font-size: 25px;
+}
+.btn1:hover{
+    box-shadow: 2px 2px 10px rgb(109, 7, 7),
+    inset 3px 3px 10px rgb(168, 33, 33);
+    background: transparent;
+    border:1px solid rgb(255, 0, 119);
+    color:rgb(255, 0, 119);
+}
+.donate-amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#taka{
+    margin-top:40px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid rgb(94, 92, 92);
+    text-align: center;
+    width:50%;
+    padding: 5px;
+    font-size: 25px;
+}
+.more-plan{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;;
+}
+.total-plan{
+    margin:50px 250px;
+}
+legend{
+    border:3px solid rgb(13, 109, 4);
+    padding: 5px 10px;
+    color:rgb(4, 88, 4);
+    background-color: rgb(186, 233, 138);
+    width:300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+fieldset{
+    border:3px solid rgb(13, 109, 4);
+}
+.plan{
+    background-color: rgba(238, 252, 201, 0.76);
+    width:400px;
+    padding: 20px 20px;
+    margin:10px;
+}
+.plan:hover{
+    border-bottom: 2px solid black;
+}
+*{
+    box-sizing: border-box;
+}
+.plan-head{
+    font-weight: bold;
+    font-size: 30px;
+}
+.plan-desc{
+    font-size: 12px;
+    color:rgb(97, 95, 95);
+    font-size: 20px;
+}
+.plan:nth-child(2){
+    background-color: rgba(250, 235, 215, 0.76);
+}
+.plan:nth-child(3){
+    background-color: rgba(195, 246, 255, 0.76);
+}
+.contribute{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 100px 250px;
+}
+.donate-info{
+    width:50%;
+    margin:15px;
+}
+.donate-img{
+    width:50%;
+    margin:15px;
+    border-radius: 10px;
+}
+.donate-img img{
+    width:100%;
+    border-radius: 10px;
+}
+.depend{
+    font-size: 60px;
+}
+.depend-child{
+    color:rgb(112, 110, 110);
+    font-size: 22px;
+}
+.conti-btn{
+    border:none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: rgb(255, 94, 94);
+    border-radius: 0 50px 50px 0;
+    color:white;
+    width:250px;
+    height:60px;
+    font-size: 25px;
+}
+.gets-sec{
+    text-align: center;
+    margin-top: 50px;
+}
+.gets{
+    font-size: 50px;
+    font-weight: bold;
+}
+.gets-child{
+    color:rgb(110, 109, 109);
+    width:40%;
+    font-size: 20px;
+    margin:0 auto;
+    margin-top:-20px;
+}
+.input-sec{
+    margin:50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-div{
+    background-color: bisque;
+    width:500px;
+    height: 40px;
+}
+.search-div input{
+    border:none;
+    outline: none;
+    width:100%;
+    height: 100%;
+    background-color: rgb(214, 214, 214);
+    padding: 10px 20px;
+    font-size: 23px;
+}
+.search-name{
+    background-color: rgb(255, 95, 95);
+    width:130px;
+    height:40px;
+    padding: 10px;
+    color:white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.foot{
+    background-color: rgb(37, 36, 34);
+    text-align: center;
+    margin:30px 0;
+    padding: 10px;
+}
+.web{
+    color:white;
+    font-size: 20px;
+}
+.web-info{
+    color:rgb(196, 196, 196);
+    margin-top:-10px;
+}
